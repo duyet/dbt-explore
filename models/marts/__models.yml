@@ -1,6 +1,21 @@
 version: 2
 
 models:
+  - name: duet
+    columns:
+      - name: Name
+      - name: Age
+
+  - name: py_duet
+    columns:
+      - name: Name
+      - name: Age
+
+  - name: customer_status_histories
+    columns:
+      - name: order_id
+      - name: previous_order_at
+
   - name: customers
     description: Customer overview data mart, offering key details for each unique customer. One row per customer.
     columns:
